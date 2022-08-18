@@ -6,10 +6,6 @@
   margin-bottom: 40px;
 }
 
-.bicicletas-lista h2 span {
-  color: var(--cor-p1);
-}
-
 .bicicletas-lista ul {
   display: flex;
   gap: 40px;

@@ -17,16 +17,13 @@
 
 .introducao img {
   height: 100%;
+  width: 100%;
   object-fit: cover;
   border-radius: 4px;
 }
 
 .introducao h1 {
   margin-bottom: 32px;
-}
-
-.introducao h1 span {
-  color: var(--cor-p1);
 }
 
 .introducao p {
