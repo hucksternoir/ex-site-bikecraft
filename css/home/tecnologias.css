@@ -1,7 +1,7 @@
 .tecnologia-bg {
   background-color: var(--cor-11);
-  color: aliceblue;
   box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0);
+  /* max-height: 1200px; */
 }
 
 .tecnologia {
@@ -10,15 +10,16 @@
   gap: 40px;
 }
 
-.tecnologia-conteudo {
-  padding: 160px 0;
-}
-
 .tecnologia-imagem img {
-  height: 100%;
   width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: left;
+}
+
+.tecnologia-conteudo {
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
 
 .tecnologia-conteudo > span {
@@ -55,7 +56,7 @@
 
 @media (max-width: 800px) {
   .tecnologia-bg {
-    box-shadow: initial;
+    box-shadow: none;
   }
 
   .tecnologia {
