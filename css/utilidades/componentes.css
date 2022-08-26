@@ -17,6 +17,25 @@
   max-width: max-content;
 }
 
+.botao.seta {
+  display: flex;
+  align-items: center;
+}
+
+.botao.seta:hover::after {
+  transform: translateX(4px);
+}
+
+.botao.seta::after {
+  content: "";
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  display: inline-block;
+  background: url("/img/icones/seta.svg");
+  transition: transform 0.2s;
+}
+
 .botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
