@@ -11,11 +11,17 @@
 @import url("/css/home/parceiros.css");
 @import url("/css/home/footer.css");
 
-/* bicicleta lista */
+/* bicicletas lista */
 @import url("/css/bicicletas/bicicletas-lista.css");
 @import url("/css/bicicletas/bicicletas.css");
 
+/* bicicleta*/
+@import url("/css/bicicleta/bicicleta.css");
+
 /* seguros */
 @import url("/css/seguros/seguros.css");
+@import url("/css/seguros/vantagens.css");
+@import url("/css/seguros/perguntas.css");
+
 /* termos */
 @import url("/css/termos/termos.css");
