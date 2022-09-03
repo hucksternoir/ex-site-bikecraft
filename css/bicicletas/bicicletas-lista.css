@@ -2,6 +2,10 @@
   padding: 60px 0 120px 0;
 }
 
+#bicicletas-lista .bicicletas-lista ul {
+  padding: 0px 0px 20px 0px;
+}
+
 .bicicletas-lista h2 {
   margin-bottom: 40px;
 }
